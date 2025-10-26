@@ -1,16 +1,17 @@
 import os
 import glob
-from dataclasses import dataclass
 import argparse
+from dataclasses import dataclass
+
 import torch
-from torchinfo import summary
+# from torchinfo import summary
 from torchvision import transforms
 from PIL import Image
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import numpy as np
 
-from model import UNet  # твой UNet
+from model import UNet 
 from env import settings
 
 
